@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "scripts": {
+    "dev": "etcpack_dev --config etcpack.dev.js",
+    "build": "etcpack_pkg --config etcpack.prod.js"
+  },
+  "devDependencies": {
+    "@etcpack/plain-loader": "0.1.0-alpha.0",
+    "etcpack": "^0.1.0"
+  }
+}
