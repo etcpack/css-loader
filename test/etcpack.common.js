@@ -8,8 +8,16 @@ module.exports = {
 
     redirect: {},
 
-    loader: [{
-        test: /\.css$/,
-        handler: ['@etcpack/plain-loader', '../src/index.js']
-    }]
+    loader: [
+
+        // {
+        //     test: /\.css$/,
+        //     handler: ['@etcpack/plain-loader', '../src/index.js']
+        // },
+        {
+            test: /\.css$/,
+            handler: ['@etcpack/style-loader', '../src/index.js']
+        }
+
+    ]
 };

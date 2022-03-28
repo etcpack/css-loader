@@ -1,6 +1,6 @@
 {
   "name": "@etcpack/css-loader",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.0",
   "description": "📦 对css中的图片等进行进一步解析的loader，导入的文本应该是css文件",
   "main": "src/index.js",
   "repository": {
@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/etcpack/css-loader/issues"
   },
-  "homepage": "https://github.com/etcpack/css-loader#readme"
+  "homepage": "https://github.com/etcpack/css-loader#readme",
+  "dependencies": {
+    "@hai2007/nodejs": "^3.0.0",
+    "@hai2007/tool": "^1.2.0"
+  }
 }
